@@ -9,3 +9,5 @@ The program should work with ReShade set in DirectX 9 mode, ```d3d9.dll```, but 
 The program will create a generic ```config.ini``` if one doesn't exist, so you can tweak settings like initial width/height, vsync etc.
 
 This program targets ```C++17```, so build it with a compiler that's compatible with it.
+
+You can press ```Alt```+```Enter``` to toggle fullscreen mode.
