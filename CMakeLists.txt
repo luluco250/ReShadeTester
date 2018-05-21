@@ -10,11 +10,11 @@ set(
 	src/keyboard.cpp
 	src/config.cpp
 )
-add_executable(reshade_test ${SOURCES})
+
+add_executable(reshade_test WIN32 ${SOURCES})
 
 # SDL2
 set(SDL_SHARED OFF)
-set(DIRECTX OFF)
 add_subdirectory(deps/sdl2)
 include_directories(deps/sdl2/include)
 target_link_libraries(reshade_test SDL2-static)
